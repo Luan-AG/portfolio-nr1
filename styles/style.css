@@ -1,8 +1,75 @@
 body {
-    border: 0px;
+    margin: 0px;
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(../images/page-bg.jpg);
 }
 
+nav {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f4947b7;
+    padding: 10px 0px;
+    width: 250px;
+    height: auto;
+    position: fixed;
+    left: 100px;
+    top: 0px;
+}
 
+nav img {
+    margin: 25px 0px 0px 0px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    width: 150px;
+}
+
+nav h1 {
+    margin: 20px 0px 10px 0px;
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+nav p {
+    margin: 10px 0px 10px 0px;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+nav .page-content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.about, .skills, .projects, .contact {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0px;
+    border-top: 1px solid whitesmoke;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.contact {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.about:hover, .skills:hover, .projects:hover, .contact:hover {
+    background-color: whitesmoke;
+    color: #221f1fa9;
+    transition: linear .3s;
+}
+
+nav .icons img {
+    width: 30px;
+}
