@@ -11,7 +11,7 @@ nav {
     align-items: center;
     justify-content: center;
     background-color: #2f4947b7;
-    padding: 10px 0px;
+    padding: 10px 0px 0px 0px;
     width: 250px;
     height: auto;
     position: fixed;
@@ -70,6 +70,15 @@ nav .page-content {
     transition: linear .3s;
 }
 
-nav .icons img {
-    width: 30px;
+.icons i {
+    margin: 20px 0px;
+    color: whitesmoke;
+    background-color: #0000008a;
+    padding: 10px;
+}
+
+.icons i:hover {
+    background-color: whitesmoke;
+    color: #000000c5;
+    transition: linear .3s;
 }
