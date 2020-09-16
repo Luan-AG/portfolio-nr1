@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url(../images/page-bg.jpg);
 }
 
@@ -15,7 +15,7 @@ nav {
     width: 250px;
     height: auto;
     position: fixed;
-    left: 100px;
+    left: 80px;
     top: 0px;
 }
 
@@ -39,6 +39,7 @@ nav p {
     font-size: 14px;
     font-weight: normal;
     font-style: italic;
+    text-justify: center;
 }
 
 nav .page-content {
@@ -81,4 +82,124 @@ nav .page-content {
     background-color: whitesmoke;
     color: #000000c5;
     transition: linear .3s;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 80px;
+    /*background-color: yellowgreen;*/
+}
+
+.intro {
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #2f4947b7;
+    
+}
+
+.aboutme h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 28px;
+    border-bottom: 4px solid #2f4947b7;
+    margin-bottom: 50px;
+}
+
+.aboutflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutflex img {
+    width: 300px;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+}
+
+.aboutflex p {
+    color: whitesmoke;
+    font-size: 16px;
+    margin: 0px 10px 0px 25px;
+    width: 500px;
+    text-align: justify ;
+}
+
+.sectionskills { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #2f4947b7;
+
+}
+
+.sectionskills h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 28px;
+    border-bottom: 4px solid #2f4947b7;
+}
+
+.sectionskills p {
+    color: whitesmoke;
+}
+
+.gridskills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.html {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.html i {
+    font-size: 150px;
+    color: #E44D26;
+}
+
+.css {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.css i {
+    font-size: 150px;
+    color: #264de4;
+}
+
+.javascript {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.javascript i {
+    font-size: 150px;
+    color: #f0db4f;
+}
+.git {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.git i {
+    font-size: 150px;
+    color: #F1502F;
 }
