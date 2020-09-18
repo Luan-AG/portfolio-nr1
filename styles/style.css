@@ -28,7 +28,7 @@ nav img {
 
 nav h1 {
     margin: 20px 0px 10px 0px;
-    color: whitesmoke;
+    color: #f5f5f5;
     font-size: 22px;
     font-weight: normal;
 }
@@ -63,6 +63,11 @@ nav .page-content {
 
 .contact {
     border-bottom: 1px solid whitesmoke;
+}
+
+#current {
+    background-color: whitesmoke;
+    color: #221f1fa9;
 }
 
 .about:hover, .skills:hover, .projects:hover, .contact:hover {
@@ -160,9 +165,8 @@ nav .page-content {
 
 .gridskills {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 350px 350px;
     gap: 20px;
-
 }
 
 .html {
@@ -202,4 +206,8 @@ nav .page-content {
 .git i {
     font-size: 150px;
     color: #F1502F;
+}
+
+.projects-section {
+    height: 2000px;
 }
