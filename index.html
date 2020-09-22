@@ -12,10 +12,10 @@
             <h1>Luan A. Gonçalves</h1>
             <p>Front-end Developer</p>
             <section class="page-content">
-                <a class="about" href="#">About Me</a>
-                <a class="skills" href="#">Skills</a>
-                <a class="projects" href="#">Projects</a>
-                <a class="contact" href="#">Contact</a>
+                <a class="about" href="#aboutme">About Me</a>
+                <a class="skills" href="#myskills">Skills</a>
+                <a class="projects" href="#myprojects">Projects</a>
+                <a class="contact" href="#contactme">Contact</a>
             </section>
             <section class="icons">
                 <a href="https://www.linkedin.com/in/luan-archarde-gonçalves-584ba877" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
@@ -25,10 +25,10 @@
         </nav>
         <main class="maincontainer">
             <div class="intro"><h1>Hi, I`m Luan!</h1></div>
-            <section class="aboutme">
+            <section id="aboutme" class="aboutme">
                 <h1>About Me</h1>
                 <div class="aboutflex">
-                    <img src="images/coding.jpg" alt="A guy coding on the laptop">
+                    <img src="images/right-image.jpg" alt="A guy coding on the laptop">
                     <p>I'm a mechanical engineer
                         with a passion for web development.
                         In order to follow my dream and become a front-end
@@ -36,35 +36,68 @@
                         important tools and languages for the past 6 months.</p>
                 </div>
             </section>
-            <section class="sectionskills">
+            <section id="myskills" class="sectionskills">
                 <h1>My Skills</h1>
-                <p>Some of the skills I have acquired along this time.</p>
+                <p>Some of the tools I have been using.</p>
                 <div class="gridskills">
                     <div class="html">
-                        <i class="fab fa-html5"></i>
+                        <img src="images/HTML5_Badge_512.png" alt="html 5 logo">
                         <p>HTML 5</p>
                     </div>
                     <div class="css">
-                        <i class="fab fa-css3-alt"></i>
+                        <img src="images/badge-css-3-512.png" alt="css 3 logo">
                         <p>CSS 3</p>
                     </div>
                     <div class="javascript">
-                        <i class="fab fa-js-square"></i>
+                        <img src="images/js_logo.jpg" alt="javascript logo">
                         <p>JavaScript</p>
                     </div>
                     <div class="git">
-                        <i class="fab fa-git-alt"></i>
+                        <img src="images/git-icon-2.jpg" alt="git logo">
                         <p>Git</p>
                     </div>
                 </div>
             </section>
-            <section class="projects-section">
-
+            <section id="myprojects" class="projects-section">
+                <h1>Projects</h1>
+                <p>These are some of the projects I have been working on.</p>
+                <div class="gridprojects">
+                    <div><img src="images/portfolio-01.jpg" alt="1"></div>
+                    <div><img src="images/portfolio-02.jpg" alt="2"></div>
+                    <div><img src="images/portfolio-03.jpg" alt="3"></div>
+                    <div><img src="images/portfolio-04.jpg" alt="4"></div>
+                    <div><img src="images/portfolio-05.jpg" alt="3"></div>
+                    <div><img src="images/portfolio-06.jpg" alt="4"></div>
+                </div>
             </section>
-
+            <section id="contactme" class="contactform">
+                <h1>Contact Me</h1>
+                <p>If you got interested just send me a message.</p>
+                <form action="/my-handling-form-page" method="POST">
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name">
+                        </li>
+                        <br>
+                        <li>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="user_email">
+                        </li>
+                        <br>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="msg" cols="30" rows="10"></textarea>
+                        </li>
+                        <br>
+                        <li class="button">
+                            <button type="submit">Send your message</button>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+            <footer>Copyright © 2020</footer>
         </main>
-        <script src="scripts/main.js">
-
-        </script>
+        <script src="scripts/main.js"></script>
     </body>
 </html>

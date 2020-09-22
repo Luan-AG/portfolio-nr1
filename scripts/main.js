@@ -29,17 +29,17 @@ function scrollDown() {
     let projects = document.querySelector(".projects");
     let contact = document.querySelector(".contact");
     
-    if (axisY < 476) {
+    if (axisY < 456) {
         about.setAttribute("id", "current");
         skills.removeAttribute("id");
         projects.removeAttribute("id");
         contact.removeAttribute("id");
-    } else if (axisY >= 476 && axisY < 700) {
+    } else if (axisY >= 456 && axisY < 1100) {
         about.removeAttribute("id");
         skills.setAttribute("id", "current");
         projects.removeAttribute("id");
         contact.removeAttribute("id");
-    } else if (axisY >= 700 && axisY < 1000) {
+    } else if (axisY >= 1100 && axisY < 1938) {
         about.removeAttribute("id");
         skills.removeAttribute("id");
         projects.setAttribute("id", "current");
